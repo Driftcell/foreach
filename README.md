@@ -18,7 +18,7 @@ Quick start
 - Run as a tool with uvx
 	- From Git (no local clone needed):
 		```bash
-		uvx --from git+https://github.com/<you>/foreach foreach
+		uvx --from git+https://github.com/driftcell/foreach foreach
 		```
 	- From a local path (editable dev checkout):
 		```bash
