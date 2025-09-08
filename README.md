@@ -8,6 +8,9 @@ Features
 - Task-first workflow: create task → claim next files → done/skip → status → cancel
 - Easy start via uv/uvx; works with Claude Desktop and MCP Inspector
 
+Plugin Effectiveness
+![Plugin Effectiveness](images/copilot.png)
+
 Quick start
 - Local dev (recommended)
 	- Run the server module directly:
