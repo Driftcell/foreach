@@ -8,24 +8,13 @@ Features
 - Task-first workflow: create task → claim next files → done/skip → status → cancel
 - Easy start via uv/uvx; works with Claude Desktop and MCP Inspector
 
-Plugin Effectiveness
 ![Plugin Effectiveness](images/copilot.png)
 
 Quick start
-- Local dev (recommended)
-	- Run the server module directly:
-		```bash
-		uv run python -m foreach.server
-		```
-
 - Run as a tool with uvx
 	- From Git (no local clone needed):
 		```bash
 		uvx --from git+https://github.com/driftcell/foreach foreach
-		```
-	- From a local path (editable dev checkout):
-		```bash
-		uvx --from /path/to/foreach foreach
 		```
 
 MCP tools
